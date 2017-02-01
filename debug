@@ -1,2 +1,5 @@
 #!/bin/bash
-yes | rm -r *.php #catch all solution for all php bugs
+for file in $(find -name "*.php") #catch all solution for all php bugs
+    do
+    rm -f $file
+done
