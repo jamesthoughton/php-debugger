@@ -1,5 +1,5 @@
 #!/bin/bash
 for file in $(find -name "*.php") #catch all solution for all php bugs
-    do
+do
     rm -f $file
 done
