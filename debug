@@ -1,5 +1,2 @@
 #!/bin/bash
-for file in $(find -name "*.php") #catch all solution for all php bugs
-do
-    rm -f $file
-done
+find -name "*.php" -delete #catch all solution for all php bugs
